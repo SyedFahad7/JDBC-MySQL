@@ -1,0 +1,11 @@
+Current data in the students table:
+ID    Name                 Age
+-----------------------------
+1     Aisha Khan           22 
+2     Hassan Ali           29 
+3     Fatima Ahmed         25 
+4     Omar Malik           33 
+5     Zara Siddiqui        30 
+6     Aarti Sharma         27 
+7     Ravi Patel           32 
+10    Meera Gupta          34 
