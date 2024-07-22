@@ -44,7 +44,7 @@ public class Main {
         String insertSQL = "INSERT INTO students (name, age) VALUES (?, ?)";
         try (Connection connection = getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(insertSQL)) {
-            // Muslim Names
+
             preparedStatement.setString(1, "Aisha Khan");
             preparedStatement.setInt(2, 27);
             preparedStatement.executeUpdate();
@@ -65,7 +65,7 @@ public class Main {
             preparedStatement.setInt(2, 29);
             preparedStatement.executeUpdate();
 
-            // Hindu Names
+
             preparedStatement.setString(1, "Aarti Sharma");
             preparedStatement.setInt(2, 26);
             preparedStatement.executeUpdate();
@@ -98,7 +98,7 @@ public class Main {
         try (Connection connection = getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(updateSQL)) {
             
-            // Update age for multiple records
+
             preparedStatement.setInt(1, 22);
             preparedStatement.setString(2, "Aisha Khan");
             preparedStatement.executeUpdate();
@@ -151,7 +151,7 @@ public class Main {
         try (Connection connection = getConnection();
                 PreparedStatement preparedStatement = connection.prepareStatement(deleteSQL)) {
             
-            // Delete multiple records
+
             preparedStatement.setString(1, "Alice Johnson");
             preparedStatement.executeUpdate();
 
